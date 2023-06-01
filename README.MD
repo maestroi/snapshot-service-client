@@ -14,13 +14,13 @@ This is a Go application that downloads and extracts a snapshot from a specified
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/maestroi/snapshot-service-client
    ```
 
 2. Change to the project directory:
 
    ```bash
-   cd <project-directory>
+   cd snapshot-service-client
    ```
 
 3. Build the application:
