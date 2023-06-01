@@ -1,7 +1,7 @@
 # Go Application Makefile
 
 # Variables
-BINARY_NAME := myapp
+BINARY_NAME := snapshot-service-client
 MAIN_FILE := cmd/main.go
 
 # Build the application
@@ -14,11 +14,11 @@ run:
 
 # Build the Docker image
 docker-build:
-	docker build -t snapshot-downloader .
+	docker build -t snapshot-service-client .
 
 # Run the Docker container
 docker-run:
-	docker run -it -v $(PWD):/app/data snapshot-downloader nimiq-v1 testnet /app/data
+	docker run -it -v $(PWD):/app/data -f nimiq-v1 testnet /app/data
 
 # Clean up generated files
 clean:

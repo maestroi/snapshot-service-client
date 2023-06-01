@@ -68,7 +68,7 @@ This is a Snapshot-service-client that downloads and extracts a snapshot from a 
 ## Run binary
 This will force download a latest snapshot for the nimiq non albatross testnet node in current directory.
 ```bash
-snapshot-downloader -f nimiq-v1 testnet . 
+snapshot-service-client -f nimiq-v1 testnet . 
 ``` 
 
 ## Options
