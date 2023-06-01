@@ -71,6 +71,3 @@ This is a Go application that downloads and extracts a snapshot from a specified
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-
-Feel free to adjust the instructions and explanations based on your specific project's needs.
