@@ -1,6 +1,3 @@
-Certainly! Here's an updated version of the README file that includes the Makefile commands:
-
-```markdown
 # Go Application
 
 This is a Go application that downloads and extracts a snapshot from a specified URL.
