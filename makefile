@@ -14,11 +14,11 @@ run:
 
 # Build the Docker image
 docker-build:
-	docker build -t my-go-app .
+	docker build -t snapshot-downloader .
 
 # Run the Docker container
 docker-run:
-	docker run -it -v $(PWD):/app/data my-go-app nimiq-v1 testnet /app/data
+	docker run -it -v $(PWD):/app/data snapshot-downloader nimiq-v1 testnet /app/data
 
 # Clean up generated files
 clean:

@@ -64,6 +64,13 @@ This is a Go application that downloads and extracts a snapshot from a specified
 - `make clean`: Clean up the generated files.
 - `make help`: Show a list of available commands.
 
+
+## Run binary
+This will force download a latest snapshot for the nimiq non albatross testnet node in current directory.
+```bash
+snapshot-downloader -f nimiq-v1 testnet . 
+``` 
+
 ## Options
 
 - `-f`: Overwrite existing files without prompt.
