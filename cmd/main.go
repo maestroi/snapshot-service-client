@@ -37,7 +37,7 @@ func main() {
 	targetDir := args[2]
 
 	start := time.Now()
-	url := fmt.Sprintf("http://localhost:8080/api/v1/files/%s/%s/latest", protocol, network)
+	url := fmt.Sprintf("https://api.cryptosnapshotservice.com/api/v1/files/%s/%s/latest", protocol, network)
 
 	resp, err := http.Get(url)
 	if err != nil {

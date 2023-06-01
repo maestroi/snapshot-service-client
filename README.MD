@@ -1,6 +1,6 @@
-# Go Application
+# Snapshot-service-client
 
-This is a Go application that downloads and extracts a snapshot from a specified URL.
+This is a Snapshot-service-client that downloads and extracts a snapshot from a specified URL.
 
 ## Prerequisites
 
